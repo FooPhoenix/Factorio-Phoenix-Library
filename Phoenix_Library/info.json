@@ -1,0 +1,11 @@
+{
+    "name": "Phoenix_Library",
+    "version": "0.0.1",
+    "title": "Phoenix Library",
+    "author": "FooPhoenix",
+    "contact": "foophoenix@mail.ch",
+    "homepage": "",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0"],
+    "description": "A powerful library for interacting with the Factorio API."
+}
