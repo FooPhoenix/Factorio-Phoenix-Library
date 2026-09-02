@@ -90,6 +90,7 @@ local DebugAssert = { }
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a `boolean`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -108,6 +109,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `boolean`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -132,6 +134,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is a `boolean` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -150,6 +153,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `boolean` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -176,6 +180,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a `number`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -194,6 +199,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `number`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -218,6 +224,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is a `number` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -236,6 +243,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `number` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -262,6 +270,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a `string`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -280,6 +289,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `string`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -304,6 +314,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is a `string` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -322,6 +333,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `string` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -348,6 +360,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a `table`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -366,6 +379,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `table`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -390,6 +404,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is a `table` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -408,6 +423,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `table` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -434,6 +450,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a `function`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -452,6 +469,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `function`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -476,6 +494,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is a `function` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -494,6 +513,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `function` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -520,6 +540,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -536,6 +557,7 @@ function DebugAssert.isNil(value)
 end
 
 --- ### This function asserts that all provided values are `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -560,6 +582,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is not `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -576,6 +599,7 @@ function DebugAssert.isNotNil(value)
 end
 
 --- ### This function asserts that all provided values are not `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check, or a table containing the values to check.
@@ -611,6 +635,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is an `integer`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -629,6 +654,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `integer`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -653,6 +679,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is an `integer` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -671,6 +698,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `integer` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -697,6 +725,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is an `identifier`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -716,6 +745,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `identifier`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -740,6 +770,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is an `identifier` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -758,6 +789,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are `identifier` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param ... any The values to check.
@@ -791,7 +823,7 @@ local type_lookup   = libExtendedTypes.types
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a valid `type`.<br>
---- _Works only for native types._
+--- [*DEBUG ONLY*] _Works only for native types._
 ---
 --- -----
 --- @param value any The value to check.
@@ -810,7 +842,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are valid `type`.<br>
---- _Works only for native types._
+--- [*DEBUG ONLY*] _Works only for native types._
 ---
 --- -----
 --- @param ... any The values to check.
@@ -835,7 +867,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is a valid `type` or `nil`.<br>
---- _Works only for native types._
+--- [*DEBUG ONLY*] _Works only for native types._
 ---
 --- -----
 --- @param value any The value to check.
@@ -854,7 +886,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are valid `type` or `nil`.<br>
---- _Works only for native types._
+--- [*DEBUG ONLY*] _Works only for native types._
 ---
 --- -----
 --- @param ... any The values to check.
@@ -881,7 +913,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a valid `typeExtended`.<br>
---- _Works only for extended types._
+--- [*DEBUG ONLY*] _Works only for extended types._
 ---
 --- -----
 --- @param value any The value to check.
@@ -900,7 +932,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are valid `typeExtended`.<br>
---- _Works only for extended types._
+--- [*DEBUG ONLY*] _Works only for extended types._
 ---
 --- -----
 --- @param ... any The values to check.
@@ -925,7 +957,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is a valid `typeExtended` or `nil`.<br>
---- _Works only for extended types._
+--- [*DEBUG ONLY*] _Works only for extended types._
 ---
 --- -----
 --- @param value any The value to check.
@@ -944,7 +976,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are valid `typeExtended` or `nil`.<br>
---- _Works only for extended types._
+--- [*DEBUG ONLY*] _Works only for extended types._
 ---
 --- -----
 --- @param ... any The values to check.
@@ -971,7 +1003,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a valid `typeEx`.<br>
---- _Works both for native types and extended types._
+--- [*DEBUG ONLY*] _Works both for native types and extended types._
 ---
 --- -----
 --- @param value any The value to check.
@@ -990,7 +1022,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are valid `typeEx`.<br>
---- _Works both for native types and extended types._
+--- [*DEBUG ONLY*] _Works both for native types and extended types._
 ---
 --- -----
 --- @param ... any The values to check.
@@ -1015,7 +1047,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is a valid `typeEx` or `nil`.<br>
---- _Works both for native types and extended types._
+--- [*DEBUG ONLY*] _Works both for native types and extended types._
 ---
 --- -----
 --- @param value any The value to check.
@@ -1034,7 +1066,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are valid `typeEx` or `nil`.<br>
---- _Works both for native types and extended types._
+--- [*DEBUG ONLY*] _Works both for native types and extended types._
 ---
 --- -----
 --- @param ... any The values to check.
@@ -1065,7 +1097,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a valid `array`.<br>
---- [*slow*]
+--- [*DEBUG ONLY*] [*slow*]
 ---
 --- -----
 --- @param value any The expression to check.
@@ -1104,7 +1136,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are valid `array`.<br>
---- [*slow*]
+--- [*DEBUG ONLY*] [*slow*]
 ---
 --- -----
 --- @param ... any A list of expressions to check.
@@ -1151,7 +1183,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is a valid `array` or `nil`.<br>
---- [*slow*]
+--- [*DEBUG ONLY*] [*slow*]
 ---
 --- -----
 --- @param value any The expression to check.
@@ -1194,7 +1226,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are valid `array` or `nil`.<br>
---- [*slow*]
+--- [*DEBUG ONLY*] [*slow*]
 ---
 --- -----
 --- @param ... any A list of expressions to check.
@@ -1240,7 +1272,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a valid `dictionary`.<br>
---- [*slow*]
+--- [*DEBUG ONLY*] [*slow*]
 ---
 --- -----
 --- @param value any The expression to check.
@@ -1271,7 +1303,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are valid `dictionary`.<br>
---- [*slow*]
+--- [*DEBUG ONLY*] [*slow*]
 ---
 --- -----
 --- @param ... any A list of expressions to check.
@@ -1309,7 +1341,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that the provided value is a valid `dictionary` or `nil`.<br>
---- [*slow*]
+--- [*DEBUG ONLY*] [*slow*]
 ---
 --- -----
 --- @param value any The expression to check.
@@ -1344,7 +1376,7 @@ end
 -- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
 
 --- ### This function asserts that all provided values are valid `dictionary` or `nil`.<br>
---- [*slow*]
+--- [*DEBUG ONLY*] [*slow*]
 ---
 --- -----
 --- @param ... any A list of expressions to check.
@@ -1383,6 +1415,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided table has a metatable.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value table The table to check.
@@ -1417,6 +1450,7 @@ end
 -- └──────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a class instance.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -1460,6 +1494,7 @@ local function isClass(value, name)
 end
 
 --- ### This function asserts that the provided value is a class instance.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -1473,6 +1508,7 @@ function DebugAssert.isClass(value, name)
 end
 
 --- ### This function asserts that the provided value is a class instance or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -1490,6 +1526,7 @@ end
 -- ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ --
 
 --- ### This function asserts that the provided value is a Factorio `LuaObject`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -1523,6 +1560,7 @@ local function isLuaObject(value, name)
 end
 
 --- ### This function asserts that the provided value is a Factorio `LuaObject`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -1536,6 +1574,7 @@ function DebugAssert.isLuaObject(value, name)
 end
 
 --- ### This function asserts that the provided value is a Factorio `LuaObject` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -1553,6 +1592,7 @@ end
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
 --- ### This function asserts that the provided value is a Factorio `LuaPlayer`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
@@ -1576,6 +1616,7 @@ function DebugAssert.isLuaPlayer(value, valid)
 end
 
 --- ### This function asserts that the provided value is a Factorio `LuaPlayer` or `nil`.<br>
+--- [*DEBUG ONLY*]
 ---
 --- -----
 --- @param value any The value to check.
