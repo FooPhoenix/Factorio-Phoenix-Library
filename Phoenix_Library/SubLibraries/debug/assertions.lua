@@ -721,6 +721,96 @@ function DebugAssert.areOptionalInteger(...)
 end
 
 -- ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐ --
+-- │ Index assert section.                                                                                        │ --
+-- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
+
+--- ### This function asserts that the provided value is an `index`.<br>
+--- [*DEBUG ONLY*]
+---
+--- -----
+--- @param value any The value to check.
+---
+--- @return boolean # Returns `true` if the value is an index; otherwise throws an error.
+---
+--
+function DebugAssert.isIndex(value)
+    if type(value) ~= 'number' or floor(value) ~= value or value < 1 then
+        throwSimpleError('index', type(value))
+    end
+
+    return true
+end
+
+-- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
+
+--- ### This function asserts that all provided values are `index`.<br>
+--- [*DEBUG ONLY*]
+---
+--- -----
+--- @param ... any The values to check.
+---
+--- @return boolean # Returns `true` if all values are indexs; otherwise throws an error.
+---
+--
+function DebugAssert.areIndex(...)
+
+    local arg_count = select('#', ...)
+    local args      = { ... }
+
+    for index = 1, arg_count do
+        if type(args[index]) ~= 'number' or floor(args[index]) ~= args[index] or args[index] < 1 then
+            throwSimpleError('index', type(args[index]), false, index)
+        end
+    end
+
+    return true
+end
+
+-- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
+
+--- ### This function asserts that the provided value is an `index` or `nil`.<br>
+--- [*DEBUG ONLY*]
+---
+--- -----
+--- @param value any The value to check.
+---
+--- @return boolean # Returns `true` if the value is an index or nil; otherwise throws an error.
+---
+--
+function DebugAssert.isOptionalIndex(value)
+    if value ~= nil and (type(value) ~= 'number' or floor(value) ~= value) or value < 1 then
+        throwSimpleError('index', type(value), true)
+    end
+
+    return true
+end
+
+-- ────────────────────────────────────────────────────────────────────────────────────────────────────────────────── --
+
+--- ### This function asserts that all provided values are `index` or `nil`.<br>
+--- [*DEBUG ONLY*]
+---
+--- -----
+--- @param ... any The values to check.
+---
+--- @return boolean # Returns `true` if all values are indexs or nil; otherwise throws an error.
+---
+--
+function DebugAssert.areOptionalIndex(...)
+
+    local arg_count = select('#', ...)
+    local args      = { ... }
+
+    for index = 1, arg_count do
+        if args[index] ~= nil and (type(args[index]) ~= 'number' or floor(args[index]) ~= args[index]) or args[index] < 1 then
+            throwSimpleError('index', type(args[index]), true, index)
+        end
+    end
+
+    return true
+end
+
+-- ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐ --
 -- │ Identifier assert section.                                                                                     │ --
 -- └────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘ --
 
