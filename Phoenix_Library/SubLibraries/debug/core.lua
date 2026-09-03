@@ -33,7 +33,7 @@ DebugAssert = require('SubLibraries.debug.assertions')
 --- @field assert DebugAssert Everything you need to easily assert things.
 --
 local LibDebug = {
-    assert = DebugAssert
+    assert = DebugAssert    ---@type DebugAssert
 }
 
 -- ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════ --
